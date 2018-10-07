@@ -1,5 +1,3 @@
-## Title: STreet OPerator [STOP]
-
 ### English Ver. is written BELOW.
 
 ## Related challange:
@@ -40,11 +38,6 @@ STOPはITSの一種と考えることができます。ただ、これは従来�
 * たくさんの歩行者がいた時は、横断歩道の幅を広げます。
 
 これらの機能によって、STOPは歩行者の安全を守り、交通事故を減らします。
-
-## Functional prototype:
-
-https://gitlab.ballpark.altemista.cloud/moritajny/hackathon2018_CORP_STOP/tree/master
-
 
 ## Technical description:
 
@@ -110,41 +103,9 @@ Microsoftのクラス分類アルゴリズムを用いて、画像のラベル�
 このマッピングソフトは、これまでの機械学習エンジンと連携しないため、コントローラにおいてマッピングソフトとの連携処理を記述しています。
 
 
-## Teams for developing the work result in the Global Final:
-
-現在、STOPは歩行者の状態のみを識別し、道路上にサインを標示するのみとなっています。
-今後、以下のような改良を加え、よりダイナミックでインタラクティブな交通制御を実現します。
-
-自動車およびそのほか交通車両の検出による、より複雑な道路状況の識別
-エッジ側にて処理可能な軽量モデルの実装による、よりニアリアルタイムでの検出と道路標示投影
-道路標示の3次元投影の実現による、より直感的な情報量の多いサインの投影
-
-## Innovation:
-
-主なイノベーションは以下です。
-
-* プロジェクションマッピング技術と機械学習技術の融合
-
-* 歩きスマホをしている人の高精度な検出.
-
-* 動画情報に対する、セミリアルタイムでの検出処理の実現
-
-
-## Impact and users:
-
-本アイデアのインパクトは下記です。
-
-* 歩行者がいつでもどこでも安全に道路を渡れるようになる
-
-* 横断歩道上での事故の撤廃
-
-* 道路から信号機を撤廃できる
 
 
 ## Videos:
-https://gitlab.ballpark.altemista.cloud/moritajny/hackathon2018_CORP_STOP/blob/master/movie.mp4
-
-
 
 ## Requirements
 - Python Version 3.4 or later
@@ -156,21 +117,8 @@ https://gitlab.ballpark.altemista.cloud/moritajny/hackathon2018_CORP_STOP/blob/m
 - tensorflow
 - opencv-python
 
-## How to use
-- when you use by taking images by web cam
-```
-python main.py
-```
-- when you use by loading static images on your computer
-```
-python main.py --img=(path)
-```
 
-
-
-
-
-###日本語の説明は本文上部に記載しております。
+### English ver.
 
 ## Related challange:
 
@@ -214,9 +162,6 @@ But it works in everywhere, in real time, and in different situation;
 
 Possessing these features, STOP can protect the pedestrians and reduce the traffic accidents.
 
-## Functional prototype:
-
-https://gitlab.ballpark.altemista.cloud/moritajny/hackathon2018_CORP_STOP/tree/master
 
 
 ## Technical description:
@@ -286,38 +231,7 @@ The projector get the 4 type response of Machine Learning Server;
 depends on the response, the projector projects the sinn on road.
 
 
-## Teams for developing the work result in the Global Final:
-
-Currently STOP is projecting the sign on the static position.
-
-But in order to become our concept true, STOP should be able to project the dynamic sign in any place depends on situation.
-
-In the global final, STOP will detect not only the existence of pedestrians or automotives, but also of the "accurate position and status" of them.
-by this update, STOP will projects not only static sign, but also dynamic sign below;
-
-the sign for the cars in the hide of corner.
-the sign emphasizing walking pedestrian.
-the sign indicating the best route for the pedestrian.
-
-## Innovation:
-
-the innovative point of this system is;
-
-* Detecting if the one texting or not by using crassification.
-
-* Detecting the object in near-real time
-
-## Impact and users:
-
-* Pedestrians can cross road at any point they want
-
-* we can replase all traffic lights.
-
-* we can keep safety for those who are crossing the road while tecting
-
-
 ## Videos:
-https://gitlab.ballpark.altemista.cloud/moritajny/hackathon2018_CORP_STOP/blob/master/movie.mp4
 
 
 
