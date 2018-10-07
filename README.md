@@ -1,5 +1,3 @@
-## Title: STreet OPerator [STOP]
-
 ### English Ver. is written BELOW.
 
 ## Related challange:
