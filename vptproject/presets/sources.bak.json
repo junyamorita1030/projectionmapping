@@ -456,7 +456,7 @@
 					"videobank01::videopath" : [ "default" ],
 					"videobank01::loop" : [ 0 ],
 					"videobank01::xfade" : [ 0.5 ],
-					"videobank01::video" : [ "scene1.mp4" ],
+					"videobank01::video" : [ "scene2.mp4" ],
 					"videobank01::rate" : [ 1.0 ],
 					"videobank01::on" : [ 1 ],
 					"videobank01::alpha" : [ 0 ],

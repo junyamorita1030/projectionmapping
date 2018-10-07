@@ -19,13 +19,13 @@ def read_args():
     return parser.parse_args()
 
 def change_vpt(pm, num):
-    if num == 3 :
+    if num == 0 :
         pm.arukisumaho()
         sleep(10)
-    elif num == 4 :
+    elif num == 1 :
         pm.wide_cross()
         sleep(10)
-    elif num == 1 :
+    elif num == 2 :
         pm.normal_cross()
         sleep(10)
     else:
@@ -109,13 +109,10 @@ def main():
                     pm.waiting()
                 # 歩行者がいない場合
                 else:
-                    sleep(1)
+                    sleep(3)
                     pass
 
         except KeyboardInterrupt:
-            print('バックドア')
-            pm_key = int(input('数値を入力 : '))
-            change_vpt(pm, pm_key)
             pm.waiting()
 
 
