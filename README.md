@@ -18,7 +18,7 @@
 
 下記ムービーをダウンロードしてご覧ください。
 
-
+https://github.com/junyamorita1030/projectionmapping/blob/master/movie.mp4
 
 
 ## Functional description:
@@ -109,10 +109,6 @@ Microsoftのクラス分類アルゴリズムを用いて、画像のラベル�
 このマッピングソフトは、これまでの機械学習エンジンと連携しないため、コントローラにおいてマッピングソフトとの連携処理を記述しています。
 
 
-
-
-## Videos:
-
 ## Requirements
 - Python Version 3.4 or later
 - requests
@@ -140,6 +136,11 @@ Microsoftのクラス分類アルゴリズムを用いて、画像のラベル�
 
 * Adobe After Effect
 
+## Movie
+
+See video before you read this.
+
+https://github.com/junyamorita1030/projectionmapping/blob/master/movie.mp4
 
 ## Functional description:
 we developed the STreet OPerator, hereinafter reffered to as STOP, for the pedestrian who want traffic safety.
@@ -235,11 +236,6 @@ The projector get the 4 type response of Machine Learning Server;
 * 4 is there is the careless pedestrian who are starting cross the road.
 
 depends on the response, the projector projects the sinn on road.
-
-
-## Videos:
-
-
 
 
 ## Requirements
